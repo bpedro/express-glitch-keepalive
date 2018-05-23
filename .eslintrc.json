@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    "security"
+  ],
+  "extends": ["airbnb-base", "plugin:security/recommended"],
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "./scripts/*.js",
+          "./test/**/*.js"
+        ]
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always",
+        "objects": "always",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+      }
+    ],
+    "no-console": 0
+  }
+}

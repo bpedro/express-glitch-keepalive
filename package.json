@@ -1,0 +1,30 @@
+{
+  "name": "express-glitch-keepalive",
+  "version": "0.1.0",
+  "description": "An Express middleware that keeps your Glitch project alive",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpedro/express-glitch-keepalive.git"
+  },
+  "keywords": [
+    "glitch",
+    "express",
+    "keepalive",
+    "alive"
+  ],
+  "author": {
+    "name": "Bruno Pedro",
+    "email": "bpedro@brunopedro.com",
+    "url": "https://brunopedro.com/"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5.2"
+  },
+  "main": "lib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpedro/express-glitch-keepalive/issues"
+  },
+  "homepage": "https://github.com/bpedro/express-glitch-keepalive#readme"
+}
